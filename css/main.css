@@ -1,0 +1,163 @@
+:root {
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  background-color: rgba(0, 123, 255, 0.1);
+  color: #017cff;
+}
+
+body {
+  font-family: "Poppins", sans !important;
+  background-color: #f2f2f2 !important;
+}
+
+h1 {
+  font-size: 36px !important;
+  font-weight: 700 !important;
+}
+
+.main-container {
+  padding: 80px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.bg-color {
+  background-color: #f7fbff;
+}
+
+.gallery-container {
+  padding: 80px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.container {
+  max-width: 780px !important;
+  margin: 80px 0px;
+  margin-bottom: 0px;
+}
+
+.container-img {
+  max-width: 780px !important;
+  margin-bottom: 80px;
+  margin-top: 0px;
+}
+
+.desc {
+  font-size: 18px;
+  color: #6d6d6d;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.calc {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.icon {
+  width: 100%;
+  max-width: 32px !important;
+}
+
+.contenedor-form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.readonly {
+  border: #fff;
+}
+
+input:focus-visible {
+  outline: 0;
+}
+
+.resulta {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 25px 160px;
+}
+
+.swal-footer,
+.swal-text {
+  text-align: center;
+}
+
+.swal-button {
+  background-color: #017cff;
+}
+.swal-button:not([disabled]):hover {
+  background-color: rgb(11, 94, 215);
+}
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto !important;
+}
+
+/** API **/
+
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.result img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.btn-result {
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:focus {
+  outline: none;
+}
+
+.bg-black {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
